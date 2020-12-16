@@ -1,7 +1,7 @@
 // Write your classes here
 class Tree{
-  constructor(species)
-  this.species=species
+  constructor(species){
+  this.species=species}
   static definition(){
     retun `A tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves.`
   }
