@@ -26,3 +26,13 @@ lass Evergreen extends Tree {
     return `${super.definition()} Evergreens keep their leaves all year round.`
   }
 }
+lass Evergreen extends Tree {
+  constructor( species, name ) {
+    super( species )
+    this.name = name
+  }
+
+  static definition() {
+    return `${super.definition()} Evergreens keep their leaves all year round.`
+  }
+}
