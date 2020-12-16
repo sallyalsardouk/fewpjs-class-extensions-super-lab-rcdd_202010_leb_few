@@ -2,7 +2,7 @@
 class Tree{
   constructor(species){
   this.species=species}
-  static definition(){
+  static definition{
     retun `A tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves.`
   }
 }
@@ -11,7 +11,7 @@ class Deciduous extends Tree{
     super(species)
     this.name=name
   }
-  static definition(){
+  static definition{
   return `${super.definition()},Deciduous trees shed their leaves annually.`
 }
 }
